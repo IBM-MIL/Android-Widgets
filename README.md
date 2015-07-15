@@ -12,7 +12,6 @@ The MILRing is configured by default to use green as the color for the positive 
   <img src="images/ring-1.png"  alt="drawing" width="170" height="152" border=1 />
 </p>
 
-
 You can create an instance of the MILRing programmatically in Java or declaratively in XML. The following XML code snippet shows the attribute values used to render the sentiment MILRing shown above:
 
 ``` xml
@@ -33,9 +32,11 @@ You can create an instance of the MILRing programmatically in Java or declarativ
   app:threshold="50"/>
 ```
 
-The MILRing below has a positive sentiment value of 35. Since this value is below the specified threshold (50), the yellow color was used instead of green. 
+The MILRing shown next has a positive sentiment value of 35. Since this value is below the specified threshold (50), the yellow color was used instead of green. 
 
-<image>
+<p align="center">
+  <img src="images/ring-2.png"  alt="drawing" width="170" height="152" border=1 />
+</p>
 
 The following XML code shows the minimum set of attributes that should be set in order to display a MILRing instance with a percentage value and mentions value:
 
@@ -50,9 +51,11 @@ The following XML code shows the minimum set of attributes that should be set in
   app:percentage="75"/>
 ```
 
-The image below shows the MILRing instance that corresponds to this XML snippet of code.
+The image below shows the MILRing instance that corresponds to the XML snippet of code shown above:
 
-<image>
+<p align="center">
+  <img src="images/ring-3.png"  alt="drawing" width="170" height="152" border=1 />
+</p>
 
 The following snippet of Java code shows how to obtain a reference to the MILRectangle instance defined in XML and then sets the positive percentage and number of mentions values:
 
@@ -65,9 +68,11 @@ ringLeft.setPercentage(90);
 ## MILRectangle
 An Android custom view to display a either a solid or an empty rectangle. You can create an instance of the MILRectangle programmatically in Java or declaratively in XML.
 
-<image>
+<p align="center">
+  <img src="images/rectangle-1.png"  alt="drawing" width="170" height="152" border=1 />
+</p>
 
-The following XML code snippet shows the attribute values used to render the empty green rectangle above:
+The following XML code snippet shows the attribute values used to render the empty green rectangle shown above:
 
 ``` xml
 <mil.ibm.com.reusable.widgets.MILRectangle
@@ -103,7 +108,9 @@ To render a solid rectangle, the borderWidth attribute is not required (if it is
   app:solid="true"/>
 ```
 
-<image>
+<p align="center">
+  <img src="images/rectangle-2.png"  alt="drawing" width="170" height="152" border=1 />
+</p>
 
 ## SpinningProgressDialog and SpinningAbstractAsyncTask
 
