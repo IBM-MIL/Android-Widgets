@@ -69,7 +69,7 @@ ringLeft.setPercentage(90);
 An Android custom view to display a either a solid or an empty rectangle. You can create an instance of the MILRectangle programmatically in Java or declaratively in XML.
 
 <p align="center">
-  <img src="images/rectangle-1.png"  alt="drawing" width="170" height="152" border=1 />
+  <img src="images/rectangle-1.png"  alt="drawing" width="188" height="191" border=1 />
 </p>
 
 The following XML code snippet shows the attribute values used to render the empty green rectangle shown above:
@@ -109,7 +109,7 @@ To render a solid rectangle, the borderWidth attribute is not required (if it is
 ```
 
 <p align="center">
-  <img src="images/rectangle-2.png"  alt="drawing" width="170" height="152" border=1 />
+  <img src="images/rectangle-2.png"  alt="drawing" width="176" height="187" border=1 />
 </p>
 
 ## SpinningProgressDialog and SpinningAbstractAsyncTask
