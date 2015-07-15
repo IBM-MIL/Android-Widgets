@@ -116,7 +116,9 @@ To render a solid rectangle, the borderWidth attribute is not required (if it is
 
 SpinningProgressDialog is a custom Dialog that displays a non-cancelable spinning image for a predefined amount of time. This dialog is commonly used to represent a load state. For instance, say that your mobile app needs to make a network call and while doing so you want to provide a visual cue to let the user know that they should wait until the data is loaded. An instance of the SpinningProgressDialog can be used for this.
 
-<image>
+<p align="center">
+  <img src="images/spinning-1.gif"  alt="drawing" width="250" height="496" border=1 />
+</p>
 
 The following code shows how an asynchronous network call could leverage the SpinningProgressDialog and the SpinningAbstractAsyncTask classes to display a spinning soccer ball to let the user know that data is being loaded. The DummyNetworkCall class extends the abstract SpinningAbstractAsyncTask and provides to its parent constructor the integer reference ID of the image that its SpinningProgressDialog instance should use. Optionally, you can also set the minimum amount of time (loadingMinimumThreshold) that the image should be displayed to the user to avoid flickering. This value is set to 1200 milliseconds by default. The SpinningAbstractAsyncTask class implements the onPreExecute() and onPostExecute() method to display and hide the spinning image.
 
