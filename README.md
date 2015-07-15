@@ -8,10 +8,12 @@ The MILRing widget also displays the positive sentiment numeric value in its cen
 
 The MILRing is configured by default to use green as the color for the positive sentiment (when the value is above a threshold value of 50) and blue for the negative sentiment. Because the background color of the parent view is also blue, this gives the impression that the ring is not fully closed (which was a requirement in our main use case).
 
-<image>
+<p align="center">
+  <img src="images/ring-1.png"  alt="drawing" height=400 border=1 />
+</p>
 
 
-You can create an instance of the MILRing programmatically in Java or declaratively in XML. The following XML code snippet shows the attribute values used to render the sentiment MILRing above:
+You can create an instance of the MILRing programmatically in Java or declaratively in XML. The following XML code snippet shows the attribute values used to render the sentiment MILRing shown above:
 
 ``` xml
 <mil.ibm.com.reusable.widgets.MILRing
