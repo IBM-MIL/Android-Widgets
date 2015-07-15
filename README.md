@@ -114,7 +114,7 @@ To render a solid rectangle, the borderWidth attribute is not required (if it is
 
 ## SpinningProgressDialog and SpinningAbstractAsyncTask
 
-SpinningProgressDialog is a custom Dialog that displays a non-cancelable spinning image for a predefined amount of time. This dialog is commonly used to represent a load state. For instance, say that your mobile app needs to make a network call and while doing so you want to provide a visual cue to let the user know that they should wait until the data is loaded. An instance of the SpinningProgressDialog can be used for this.
+SpinningProgressDialog is a custom non-cancelable Dialog that displays a spinning image for a predefined amount of time. This dialog is commonly used to represent a load state. For instance, say that your mobile app needs to make a network call and while doing so you want to provide a visual cue to let the user know that they should wait until the data is loaded. An instance of the SpinningProgressDialog can be used for this.
 
 <p align="center">
   <img src="images/spinning-1.gif"  alt="drawing" width="250" height="496" border=1 />
