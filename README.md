@@ -163,7 +163,7 @@ public class DummyNetworkCall extends SpinningAbstractAsyncTask<Void, Void, Void
 }
 ```
 
-Please note that you don’t need to use the SpinningAbstractAsyncTask class to make to use of the SpinningProgressDialog class. The SpinningAbstractAsyncTask is just provided a utility abstract task class that implements the plumbing code that otherwise more than likely you'd need to implement if wanting to leverage the SpinningProgressDialog class. Instead of using the SpinningAbstractAsyncTask class, your code can instantiate directly the SpinningProgressDialog class and call its show() and dismiss() methods.
+Please note that you don’t need to use the SpinningAbstractAsyncTask class to make to use of the SpinningProgressDialog class. The SpinningAbstractAsyncTask is just provided as a utility class that implements the plumbing code that you'd need to write if wanting to make use of the SpinningProgressDialog class. Instead of using the SpinningAbstractAsyncTask class, your code can instantiate directly the SpinningProgressDialog class and call its show() and dismiss() methods.
 
 ## License
 ```
