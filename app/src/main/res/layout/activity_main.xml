@@ -1,0 +1,102 @@
+<!--
+ Licensed Materials - Property of IBM
+ © Copyright IBM Corporation 2015. All Rights Reserved.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/MILBlue"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                tools:context=".MainActivity">
+
+    <mil.ibm.com.reusable.widgets.MILRing
+        android:id="@+id/ring_left"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        app:aboveThresholdColor="@color/MILGreen"
+        app:arcWidth="5dp"
+        app:belowThresholdColor="@color/MILYellow"
+        app:mentions="899"
+        app:mentionsTextSize="12sp"
+        app:negativeColor="@color/MILBlue"
+        app:percentage="90"
+        app:percentageTextSize="18sp"
+        app:threshold="50"/>
+
+    <mil.ibm.com.reusable.widgets.MILRing
+        android:id="@+id/ring_center"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:mentions="125"
+        app:percentage="75"/>
+
+    <mil.ibm.com.reusable.widgets.MILRing
+        android:id="@+id/ring_right"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        app:aboveThresholdColor="@color/MILGreen"
+        app:arcWidth="5dp"
+        app:belowThresholdColor="@color/MILYellow"
+        app:mentions="200000"
+        app:mentionsTextSize="12sp"
+        app:negativeColor="@color/MILBlue"
+        app:percentage="35"
+        app:percentageTextSize="18sp"
+        app:threshold="50"/>
+
+    <mil.ibm.com.reusable.widgets.MILRectangle
+        android:id="@+id/leftRectangle"
+        android:layout_width="70dp"
+        android:layout_height="74dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ring_left"
+        android:layout_marginTop="40dp"
+        app:rectangleColor="@color/MILYellow"
+        app:solid="true"/>
+
+    <mil.ibm.com.reusable.widgets.MILRectangle
+        android:id="@+id/rightRectangle"
+        android:layout_width="70dp"
+        android:layout_height="74dp"
+        android:layout_alignBottom="@+id/leftRectangle"
+        android:layout_alignParentRight="true"
+        app:borderWidth="5dp"
+        app:rectangleColor="@color/MILGreen"
+        app:solid="false"/>
+
+    <Button
+        android:id="@+id/toggleButton"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/leftRectangle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/MILBlack"
+        android:onClick="handleToggle"
+        android:text="@string/toggle"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/loadButton"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/toggleButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@color/MILBlack"
+        android:onClick="startLoadActivity"
+        android:text="@string/launch_load_activity"
+        android:textAllCaps="false"/>
+
+</RelativeLayout>

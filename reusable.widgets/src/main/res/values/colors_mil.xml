@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Licensed Materials - Property of IBM
+ © Copyright IBM Corporation 2015. All Rights Reserved.
+-->
+<resources>
+    <color name="MILYellow">#FFC708</color>
+    <color name="MILBlue">#0D76BD</color>
+    <color name="MILGreen">#17a75b</color>
+    <color name="MILBlack">#525260</color>
+    <color name="MILGray">#CFCFCF</color>
+</resources>

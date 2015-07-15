@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ReusableWidgets</string>
+    <string name="toggle">Toggle</string>
+    <string name="launch_load_activity">Launch Load Activity</string>
+    <string name="load_text">Data was loaded!</string>
+    <string name="title_activity_load">Load Activity</string>
+</resources>

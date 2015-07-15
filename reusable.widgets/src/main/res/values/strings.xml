@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Licensed Materials - Property of IBM
+ © Copyright IBM Corporation 2015. All Rights Reserved.
+-->
+<resources>
+    <string name="app_name">ReusableWidgets</string>
+    <string name="img_alt">Image default alt description</string>
+</resources>

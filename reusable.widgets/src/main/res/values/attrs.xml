@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Licensed Materials - Property of IBM
+ © Copyright IBM Corporation 2015. All Rights Reserved.
+-->
+<resources>
+    <declare-styleable name="MILRing">
+        <attr name="percentage" format="integer"/>
+        <attr name="threshold" format="integer"/>
+        <attr name="mentions" format="integer"/>
+        <attr name="arcWidth" format="dimension"/>
+        <attr name="percentageTextSize" format="dimension"/>
+        <attr name="mentionsTextSize" format="dimension"/>
+        <attr name="aboveThresholdColor" format="color"/>
+        <attr name="belowThresholdColor" format="color"/>
+        <attr name="negativeColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="MILRectangle">
+        <attr name="borderWidth" format="dimension"/>
+        <attr name="solid" format="boolean"/>
+        <attr name="rectangleColor" format="color"/>
+    </declare-styleable>
+</resources>
